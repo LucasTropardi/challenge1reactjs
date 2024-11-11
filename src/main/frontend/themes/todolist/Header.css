@@ -1,0 +1,32 @@
+.header {
+  background-color: var(--gray-700);
+  display: flex;
+  justify-content: center;
+  height: 12.5rem;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 50rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.logo h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.logo-primary {
+  color: var(--blue);
+}
+
+.logo-secondary {
+  color: var(--purple-dark);
+}

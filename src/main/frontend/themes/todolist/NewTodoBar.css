@@ -1,0 +1,48 @@
+/* Input para tarefas */
+.task-input {
+  max-width: 50rem;
+  display: flex;
+  align-items: center;
+  margin: -1.5rem auto 0;
+}
+
+.task-input .task-input-content {
+  display: flex;
+  width: 46rem;
+  margin: 0 auto;
+  gap: 0.5rem;
+}
+
+.task-input-content input {
+  width: 39.875rem;
+  height: 3.25rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--gray-500);
+  color: var(--gray-100);
+  /* color: #ffffff; */
+}
+
+.task-input-content input::placeholder {
+  color: var(--gray-300);
+}
+
+.task-input-content button {
+  padding: 8px 16px;
+  height: 3.25rem;
+  width: 5.625rem;
+  background-color: var(--dark-blue); 
+  color: var(--gray-100);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem; 
+}
+
+.task-input-content button:hover {
+  
+  background-color: var(--blue); 
+}

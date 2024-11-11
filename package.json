@@ -3,6 +3,7 @@
   "license": "UNLICENSED",
   "type": "module",
   "dependencies": {
+    "@phosphor-icons/react": "^2.1.7",
     "@polymer/polymer": "3.5.2",
     "@vaadin/bundles": "24.5.2",
     "@vaadin/common-frontend": "0.0.19",
@@ -51,6 +52,7 @@
     "@vitejs/plugin-react": "4.3.3",
     "async": "3.2.6",
     "glob": "10.4.5",
+    "prettier": "3.3.3",
     "rollup-plugin-brotli": "3.1.0",
     "rollup-plugin-visualizer": "5.12.0",
     "strip-css-comments": "5.0.0",
@@ -60,8 +62,7 @@
     "vite-plugin-checker": "0.8.0",
     "workbox-build": "7.1.1",
     "workbox-core": "7.3.0",
-    "workbox-precaching": "7.3.0",
-    "prettier": "3.3.3"
+    "workbox-precaching": "7.3.0"
   },
   "vaadin": {
     "dependencies": {
@@ -124,7 +125,7 @@
       "workbox-core": "7.3.0",
       "workbox-precaching": "7.3.0"
     },
-    "hash": "fd9753f485505a15f4f484375d6c18c4ed242b8232c09c0115a6d012f804969e"
+    "hash": "ace2b4d8f35148286fb3f91a70d49e612853e416eec33cfd9e8c81094f5a3459"
   },
   "overrides": {
     "@vaadin/bundles": "$@vaadin/bundles",
@@ -164,6 +165,7 @@
     "@vaadin/react-components-pro": "$@vaadin/react-components-pro",
     "@vaadin/vaadin-themable-mixin": "$@vaadin/vaadin-themable-mixin",
     "@vaadin/vaadin-lumo-styles": "$@vaadin/vaadin-lumo-styles",
-    "@vaadin/vaadin-material-styles": "$@vaadin/vaadin-material-styles"
+    "@vaadin/vaadin-material-styles": "$@vaadin/vaadin-material-styles",
+    "@phosphor-icons/react": "$@phosphor-icons/react"
   }
 }
