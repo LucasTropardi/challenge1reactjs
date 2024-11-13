@@ -1,0 +1,30 @@
+.main-page {
+  margin: 0 auto;
+  width: 46rem;
+}
+
+.task-counters {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding: 0;
+}
+
+.task-counters .created-tasks,
+.task-counters .completed-tasks {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: var(--blue);
+}
+
+.completed-tasks.purple {
+  color: var(--purple-dark);
+}
+
+.task-counters span {
+  background-color: var(--gray-400);
+  color: var(--gray-200);
+  padding: 0.25rem 0.5rem;
+  border-radius: 999px;
+  margin-left: 0.5rem;
+}

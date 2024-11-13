@@ -1,9 +1,8 @@
-/* Input para tarefas */
 .task-input {
   max-width: 50rem;
   display: flex;
   align-items: center;
-  margin: -1.5rem auto 0;
+  margin: -1.5rem auto 3rem;
 }
 
 .task-input .task-input-content {
@@ -21,7 +20,6 @@
   border-radius: 0.5rem;
   background-color: var(--gray-500);
   color: var(--gray-100);
-  /* color: #ffffff; */
 }
 
 .task-input-content input::placeholder {
@@ -29,7 +27,7 @@
 }
 
 .task-input-content button {
-  padding: 8px 16px;
+  padding: 0.5rem 1rem;
   height: 3.25rem;
   width: 5.625rem;
   background-color: var(--dark-blue); 
@@ -43,6 +41,5 @@
 }
 
 .task-input-content button:hover {
-  
   background-color: var(--blue); 
 }

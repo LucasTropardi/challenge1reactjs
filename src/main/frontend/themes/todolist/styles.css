@@ -1,5 +1,8 @@
 @import url('./Header.css');
 @import url('./NewTodoBar.css');
+@import url('./MainPage.css');
+@import url('./TaskItem.css');
+@import url('./EmptyView.css');
 
 :root {
   --white: #fff;

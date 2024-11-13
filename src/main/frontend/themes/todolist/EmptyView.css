@@ -1,0 +1,30 @@
+.empty-view {
+  height: 15.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: solid 1px var(--gray-500);
+  border-radius: 0.5rem;
+}
+
+.empty-view-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.empty-view-content p {
+  color: var(--gray-200);
+  margin-bottom: -0.4rem;
+  font-weight: bold;
+}
+
+p.soft {
+  color: var(--gray-300);
+  font-weight: normal;
+}
+
+p.hard {
+  margin-top: 1rem;
+}

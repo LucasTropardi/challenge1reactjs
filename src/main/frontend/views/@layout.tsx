@@ -1,6 +1,6 @@
 import { signal } from '@vaadin/hilla-react-signals';
 import { AppLayout } from '@vaadin/react-components';
-import { Suspense, useEffect } from 'react';
+import { useEffect } from 'react';
 import { Outlet } from 'react-router-dom';
 
 const documentTitleSignal = signal('');
@@ -16,9 +16,7 @@ export default function MainLayout() {
 
   return (
     <AppLayout>
-      <Suspense>
-        <Outlet />
-      </Suspense>
+      <Outlet />
     </AppLayout>
   );
 }

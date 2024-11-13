@@ -28,4 +28,10 @@ public class TodoEndpoint {
     public Todo update(Todo todo) {
         return repository.save(todo);
     }
+
+    public boolean deleteById(Long id) { if (repository.existsById(id)) {
+        repository.deleteById(id);
+        return true;
+    }
+    return false; }
 }
