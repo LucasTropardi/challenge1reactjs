@@ -15,16 +15,16 @@
 }
 
 .empty-view-content p {
-  color: var(--gray-200);
+  color: var(--gray-300);
   margin-bottom: -0.4rem;
   font-weight: bold;
 }
 
-p.soft {
+.empty-view-content p.soft {
   color: var(--gray-300);
   font-weight: normal;
 }
 
-p.hard {
+.empty-view-content p.hard {
   margin-top: 1rem;
 }

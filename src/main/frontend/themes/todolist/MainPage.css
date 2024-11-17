@@ -1,4 +1,5 @@
 .main-page {
+  font-size: 0.875rem;
   margin: 0 auto;
   width: 46rem;
 }
@@ -12,9 +13,9 @@
 
 .task-counters .created-tasks,
 .task-counters .completed-tasks {
-  font-size: 1.125rem;
   font-weight: bold;
   color: var(--blue);
+  font-size: 0.875rem;
 }
 
 .completed-tasks.purple {
@@ -25,6 +26,7 @@
   background-color: var(--gray-400);
   color: var(--gray-200);
   padding: 0.25rem 0.5rem;
-  border-radius: 999px;
+  border-radius: 1rem;
   margin-left: 0.5rem;
+  font-size: 0.875rem;
 }

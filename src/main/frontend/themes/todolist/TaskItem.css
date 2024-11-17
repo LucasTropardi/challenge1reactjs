@@ -36,6 +36,53 @@
   cursor: pointer;
 }
 
+.task-item .delete-button .trash-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
 .task-item .delete-button:hover {
   color: var(--danger);
 }
+
+.task-item .delete-button:focus {
+  color: var(--danger);
+  outline: none;
+}
+
+.task-item input[type="checkbox"] {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid var(--blue);
+  appearance: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.task-item input[type="checkbox"]:focus {
+  outline: none;
+  border: solid 2px var(--dark-blue);
+}
+
+.task-item input[type="checkbox"].done-task {
+  background-color: var(--purple-dark);
+  border-color: var(--purple-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.task-item input[type="checkbox"].done-task::before {
+  content: '✓'; 
+  font-size: 0.6rem;
+  color: var(--gray-100);
+}
+
+.task-item input[type="checkbox"].done-task:focus {
+  outline: none;
+  background-color: var(--purple);
+}
+

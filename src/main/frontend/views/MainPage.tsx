@@ -19,7 +19,10 @@ export function MainPage({ todos, onToggle, onDelete }: MainPageProps) {
           Tarefas criadas <span>{createdTasksCount}</span>
         </div>
         <div className="completed-tasks purple">
-          Concluídas <span>{completedTasksCount} de {createdTasksCount}</span>
+          Concluídas{" "}
+          <span>
+            {createdTasksCount === 0 ? completedTasksCount : `${completedTasksCount} de ${createdTasksCount}`}
+          </span>
         </div>
       </div>
 
@@ -34,6 +37,7 @@ export function MainPage({ todos, onToggle, onDelete }: MainPageProps) {
               text={todo.task || ''}
               onToggle={() => onToggle(todo)}
               onDelete={() => onDelete(todo.id!)}
+              checkStyle={todo.done ? 'done-task' : 'pending-task' }
             />
           ))
         )}

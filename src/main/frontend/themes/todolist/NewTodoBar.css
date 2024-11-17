@@ -24,6 +24,7 @@
 
 .task-input-content input::placeholder {
   color: var(--gray-300);
+  font-size: 1rem;
 }
 
 .task-input-content button {
@@ -38,8 +39,14 @@
   display: flex;
   align-items: center;
   gap: 0.25rem; 
+  font-size: 0.875rem;
 }
 
 .task-input-content button:hover {
   background-color: var(--blue); 
+}
+
+.task-input-content input:focus {
+  outline: none;
+  border: 2px solid var(--purple-dark);
 }
